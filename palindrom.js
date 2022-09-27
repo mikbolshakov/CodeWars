@@ -12,3 +12,6 @@ function bestPalindrom(word) {
   word = word.toLowerCase();
   return word === word.split("").reverse().join("")
 }
+
+console.log(bestPalindrom("axapta")) // false
+console.log(bestPalindrom("artitra")) // true
